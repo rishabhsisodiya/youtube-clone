@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  /* This codes makes the header sticky on top but its not enugh */
+  position: sticky;
+  top: 0;
+  /* To make it more beautiful */
+  z-index: 100;
+  background-color: white;
+}
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header__container-2 {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: solid 1px lightgray;
+}
+.header__container-2 > input {
+  padding: 5px;
+  font-size: 18px;
+  flex: 1;
+  border: none;
+}
+.header__search-icon {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+.header__container-3 {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  margin-right: 10px;
+}
